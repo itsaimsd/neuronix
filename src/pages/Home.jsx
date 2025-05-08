@@ -1,3 +1,5 @@
+import HeaderCarousel from "../components/HeaderCarousel";
+
 export default function Home() {
     return (
       <div>
@@ -6,6 +8,7 @@ export default function Home() {
           We build fast, responsive, beautiful websites for your business.
           We build fast, responsive, beautiful websites for your business.
         </p>
+        <HeaderCarousel/>
       </div>
     );
   }
