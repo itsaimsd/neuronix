@@ -4,18 +4,35 @@ export default function Navbar() {
   return (
     <nav className="bg-white text-gray-900 p-4 shadow-md flex items-center justify-between">
       {/* Navigation links */}
-      <ul  className="flex gap-6 font-bold ms-auto me-5 pt-2">
-  <li>
-    <Link to="/" style={{ textDecoration: 'none' }}  className="hover:text-blue-600 transition ">Home</Link>
-  </li>
-  <li>
-    <Link to="/services" style={{ textDecoration: 'none' }}  className="hover:text-blue-600 transition">Services</Link>
-  </li>
-  <li>
-    <Link to="/contact" style={{ textDecoration: 'none' }}  className="hover:text-blue-600 transition">About Us</Link>
-  </li>
-</ul>
-
+      <ul className="flex gap-6 font-bold ms-auto me-5 pt-2">
+        <li>
+          <Link
+            to="/"
+            style={{ textDecoration: "none" }}
+            className="hover:text-blue-600 transition "
+          >
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/services"
+            style={{ textDecoration: "none" }}
+            className="hover:text-blue-600 transition"
+          >
+            Services
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/contact"
+            style={{ textDecoration: "none" }}
+            className="hover:text-blue-600 transition"
+          >
+            About Us
+          </Link>
+        </li>
+      </ul>
 
       {/* Buttons */}
       <div className="flex gap-4">
