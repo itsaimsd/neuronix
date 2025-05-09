@@ -6,29 +6,17 @@ export default function Navbar() {
       {/* Navigation links */}
       <ul className="flex gap-6 font-bold ms-auto me-5 pt-2">
         <li>
-          <Link
-            to="/"
-            style={{ textDecoration: "none" }}
-            className="hover:text-blue-600 transition "
-          >
+          <Link to="/" className="hover:text-blue-600 transition no-underline">
             Home
           </Link>
         </li>
         <li>
-          <Link
-            to="/services"
-            style={{ textDecoration: "none" }}
-            className="hover:text-blue-600 transition"
-          >
+          <Link to="/services" className="hover:text-blue-600 transition">
             Services
           </Link>
         </li>
         <li>
-          <Link
-            to="/contact"
-            style={{ textDecoration: "none" }}
-            className="hover:text-blue-600 transition"
-          >
+          <Link to="/contact" className="hover:text-blue-600 transition">
             About Us
           </Link>
         </li>
@@ -36,10 +24,10 @@ export default function Navbar() {
 
       {/* Buttons */}
       <div className="flex gap-4">
-        <button className="px-4 py-2 rounded-pill border border-blue-600 text-blue-600 hover:bg-blue-50 transition">
+        <button className="px-4 py-2 cursor-pointer rounded-2xl border border-blue-600 text-blue-600 hover:bg-blue-50 transition">
           Hire Me
         </button>
-        <button className="px-4 py-2 rounded-pill bg-blue-600 text-white hover:bg-blue-700 transition">
+        <button className="px-4 py-2 cursor-pointer rounded-2xl bg-blue-600 text-white hover:bg-blue-700 transition">
           Contact Us
         </button>
       </div>
