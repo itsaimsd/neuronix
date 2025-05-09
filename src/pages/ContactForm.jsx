@@ -42,7 +42,7 @@ const ContactForm = () => {
 
       <button
         type="submit"
-        className="mt-4 w-full md:w-auto px-8 py-3 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition"
+        className="mt-3 w-full md:w-auto px-8 py-2 bg-blue-600 text-white font-semibold rounded-pill hover:bg-blue-700 transition"
       >
         Submit
       </button>
